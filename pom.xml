@@ -37,8 +37,10 @@
 			</exclusions>
 		</dependency>
 
-		<dependencies>
-			<repository>
+			
+	</dependencies>
+	<distributionManagement>
+		<repository>
     				<id>admin</id>
     				<url>http://54.176.207.49:8081/repository/maven-releases/</url>
   			</repository>
@@ -46,8 +48,8 @@
     				<id>nexus</id>
     				<url>http://54.176.207.49:8081/repository/maven-snapshots/</url>
   			</snapshotRepository>
-			
-	</dependencies>
+	</distributionManagement>
+		
 
 	<build>
 		<plugins>
