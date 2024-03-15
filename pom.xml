@@ -36,6 +36,17 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<repository>
+			<id>nexus</id>
+			<name>helloword repository and snapshots</name>
+			<url>http://54.176.207.49:8081/repository/helloword-releases/<url>
+			</repository>
+		<snapshot>
+			<id>nexus</id>
+			<name>helloword repository and snapshots</name>
+			<url>http://54.176.207.49:8081/repository/helloword-snapshot/<url>
+			</snapshot>
+			
 	</dependencies>
 
 	<build>
