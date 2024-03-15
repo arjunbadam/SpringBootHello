@@ -36,16 +36,14 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<repository>
-			<id>nexus</id>
-			<name>helloword repository and snapshots</name>
-			<url>http://54.176.207.49:8081/repository/helloword-releases/<url>
-		</repository>
-		<snapshot>
-			<id>nexus</id>
-			<name>helloword repository and snapshots</name>
-			<url>http://54.176.207.49:8081/repository/helloword-snapshot/<url>
-		</snapshot>
+			<repository>
+    				<id>nexus</id>
+    				<url>http://54.176.207.49:8081/repository/maven-releases/</url>
+  			</repository>
+  			<snapshotRepository>
+    				<id>nexus</id>
+    				<url>http://54.176.207.49:8081/repository/maven-snapshots/</url>
+  			</snapshotRepository>
 			
 	</dependencies>
 
