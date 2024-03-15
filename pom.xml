@@ -36,6 +36,8 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+
+		<dependencies>
 			<repository>
     				<id>admin</id>
     				<url>http://54.176.207.49:8081/repository/maven-releases/</url>
