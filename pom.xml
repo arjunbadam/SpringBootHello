@@ -37,7 +37,7 @@
 			</exclusions>
 		</dependency>
 			<repository>
-    				<id>nexus</id>
+    				<id>admin</id>
     				<url>http://54.176.207.49:8081/repository/maven-releases/</url>
   			</repository>
   			<snapshotRepository>
